@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="15" ignored="0" total="46" passed="31">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="116" started-at="2018-03-14T16:01:35Z" finished-at="2018-03-14T16:01:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="116" started-at="2018-03-14T16:01:35Z" finished-at="2018-03-14T16:01:35Z">
+      <class name="testTriangleClass.TriangleTest">
+        <test-method status="PASS" signature="testTriangle(double, double, double)[pri:1, instance:testTriangleClass.TriangleTest@675d3402]" name="testTriangle" duration-ms="10" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderTrianleProductionPositive" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTriangle -->
+        <test-method status="PASS" signature="testTriangle1(double, double, double)[pri:2, instance:testTriangleClass.TriangleTest@675d3402]" name="testTriangle1" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderTrianleProductionNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTriangle1 -->
+        <test-method status="PASS" signature="getSquareTest(double, double, double)[pri:3, instance:testTriangleClass.TriangleTest@675d3402]" name="getSquareTest" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquarePositive" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSquareTest -->
+        <test-method status="PASS" signature="getSquareTest(double, double, double)[pri:3, instance:testTriangleClass.TriangleTest@675d3402]" name="getSquareTest" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquarePositive" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSquareTest -->
+        <test-method status="PASS" signature="getSquareTest(double, double, double)[pri:3, instance:testTriangleClass.TriangleTest@675d3402]" name="getSquareTest" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquarePositive" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSquareTest -->
+        <test-method status="PASS" signature="getSquareTest1(double, double, double)[pri:4, instance:testTriangleClass.TriangleTest@675d3402]" name="getSquareTest1" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquareNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSquareTest1 -->
+        <test-method status="PASS" signature="getSquareTest1(double, double, double)[pri:4, instance:testTriangleClass.TriangleTest@675d3402]" name="getSquareTest1" duration-ms="0" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquareNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSquareTest1 -->
+        <test-method status="PASS" signature="getSquareTest1(double, double, double)[pri:4, instance:testTriangleClass.TriangleTest@675d3402]" name="getSquareTest1" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquareNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSquareTest1 -->
+        <test-method status="PASS" signature="getSquareTest1(double, double, double)[pri:4, instance:testTriangleClass.TriangleTest@675d3402]" name="getSquareTest1" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquareNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSquareTest1 -->
+        <test-method status="PASS" signature="getSquareTest1(double, double, double)[pri:4, instance:testTriangleClass.TriangleTest@675d3402]" name="getSquareTest1" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquareNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSquareTest1 -->
+        <test-method status="PASS" signature="getSquareTest1(double, double, double)[pri:4, instance:testTriangleClass.TriangleTest@675d3402]" name="getSquareTest1" duration-ms="0" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquareNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSquareTest1 -->
+        <test-method status="PASS" signature="checkTriangleTest(double, double, double)[pri:5, instance:testTriangleClass.TriangleTest@675d3402]" name="checkTriangleTest" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquarePositive" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTriangleTest -->
+        <test-method status="PASS" signature="checkTriangleTest(double, double, double)[pri:5, instance:testTriangleClass.TriangleTest@675d3402]" name="checkTriangleTest" duration-ms="0" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquarePositive" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTriangleTest -->
+        <test-method status="PASS" signature="checkTriangleTest(double, double, double)[pri:5, instance:testTriangleClass.TriangleTest@675d3402]" name="checkTriangleTest" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquarePositive" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTriangleTest -->
+        <test-method status="PASS" signature="checkTriangleTest1(double, double, double)[pri:6, instance:testTriangleClass.TriangleTest@675d3402]" name="checkTriangleTest1" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquareNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTriangleTest1 -->
+        <test-method status="PASS" signature="checkTriangleTest1(double, double, double)[pri:6, instance:testTriangleClass.TriangleTest@675d3402]" name="checkTriangleTest1" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquareNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTriangleTest1 -->
+        <test-method status="PASS" signature="checkTriangleTest1(double, double, double)[pri:6, instance:testTriangleClass.TriangleTest@675d3402]" name="checkTriangleTest1" duration-ms="0" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquareNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTriangleTest1 -->
+        <test-method status="PASS" signature="checkTriangleTest1(double, double, double)[pri:6, instance:testTriangleClass.TriangleTest@675d3402]" name="checkTriangleTest1" duration-ms="0" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquareNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTriangleTest1 -->
+        <test-method status="PASS" signature="checkTriangleTest1(double, double, double)[pri:6, instance:testTriangleClass.TriangleTest@675d3402]" name="checkTriangleTest1" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquareNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTriangleTest1 -->
+        <test-method status="PASS" signature="checkTriangleTest1(double, double, double)[pri:6, instance:testTriangleClass.TriangleTest@675d3402]" name="checkTriangleTest1" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderMethodSquareNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTriangleTest1 -->
+        <test-method status="PASS" signature="getMessageTestA(double, double, double)[pri:7, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestA" duration-ms="2" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessagePositive" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestA -->
+        <test-method status="PASS" signature="getMessageTestA(double, double, double)[pri:7, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestA" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessagePositive" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestA -->
+        <test-method status="PASS" signature="getMessageTestA(double, double, double)[pri:7, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestA" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessagePositive" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestA -->
+        <test-method status="PASS" signature="getMessageTestB(double, double, double)[pri:8, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestB" duration-ms="0" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessagePositive" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestB -->
+        <test-method status="PASS" signature="getMessageTestB(double, double, double)[pri:8, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestB" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessagePositive" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestB -->
+        <test-method status="PASS" signature="getMessageTestB(double, double, double)[pri:8, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestB" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessagePositive" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestB -->
+        <test-method status="PASS" signature="getMessageTestC(double, double, double)[pri:9, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestC" duration-ms="0" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessagePositive" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestC -->
+        <test-method status="PASS" signature="getMessageTestC(double, double, double)[pri:9, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestC" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessagePositive" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestC -->
+        <test-method status="PASS" signature="getMessageTestC(double, double, double)[pri:9, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestC" duration-ms="0" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessagePositive" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestC -->
+        <test-method status="FAIL" signature="getMessageTestA1(double, double, double)[pri:10, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestA1" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessageNegativeA" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[fail] expected [a<=0] but found [ ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [fail] expected [a<=0] but found [ ]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at testTriangleClass.TriangleTest.getMessageTestA1(TriangleTest.java:108)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestA1 -->
+        <test-method status="FAIL" signature="getMessageTestB1(double, double, double)[pri:11, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestB1" duration-ms="0" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessageNegativeB" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[fail] expected [b<=0] but found [ ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [fail] expected [b<=0] but found [ ]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at testTriangleClass.TriangleTest.getMessageTestB1(TriangleTest.java:114)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestB1 -->
+        <test-method status="FAIL" signature="getMessageTestC1(double, double, double)[pri:12, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestC1" duration-ms="0" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessageNegativeC" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[fail] expected [c<=0] but found [ ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [fail] expected [c<=0] but found [ ]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at testTriangleClass.TriangleTest.getMessageTestC1(TriangleTest.java:120)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestC1 -->
+        <test-method status="FAIL" signature="getMessageTestA3(double, double, double)[pri:13, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestA3" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessageNegativeSecondIfA" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[fail] expected [a+b<=c] but found [ ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [fail] expected [a+b<=c] but found [ ]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at testTriangleClass.TriangleTest.getMessageTestA3(TriangleTest.java:131)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestA3 -->
+        <test-method status="FAIL" signature="getMessageTestA3(double, double, double)[pri:13, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestA3" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessageNegativeSecondIfA" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[fail] expected [a+b<=c] but found [ ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [fail] expected [a+b<=c] but found [ ]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at testTriangleClass.TriangleTest.getMessageTestA3(TriangleTest.java:131)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestA3 -->
+        <test-method status="FAIL" signature="getMessageTestB3(double, double, double)[pri:14, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestB3" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessageNegativeSecondIfB" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[fail] expected [a+c<=b] but found [ ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [fail] expected [a+c<=b] but found [ ]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at testTriangleClass.TriangleTest.getMessageTestB3(TriangleTest.java:137)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestB3 -->
+        <test-method status="FAIL" signature="getMessageTestB3(double, double, double)[pri:14, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestB3" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessageNegativeSecondIfB" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[fail] expected [a+c<=b] but found [ ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [fail] expected [a+c<=b] but found [ ]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at testTriangleClass.TriangleTest.getMessageTestB3(TriangleTest.java:137)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestB3 -->
+        <test-method status="FAIL" signature="getMessageTestC3(double, double, double)[pri:15, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestC3" duration-ms="0" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessageNegativeSecondIfC" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[fail] expected [b+c<=a] but found [ ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [fail] expected [b+c<=a] but found [ ]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at testTriangleClass.TriangleTest.getMessageTestC3(TriangleTest.java:143)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestC3 -->
+        <test-method status="FAIL" signature="getMessageTestC3(double, double, double)[pri:15, instance:testTriangleClass.TriangleTest@675d3402]" name="getMessageTestC3" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderGetMessageNegativeSecondIfC" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[fail] expected [b+c<=a] but found [ ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [fail] expected [b+c<=a] but found [ ]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at testTriangleClass.TriangleTest.getMessageTestC3(TriangleTest.java:143)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageTestC3 -->
+        <test-method status="FAIL" signature="detectTriangleTest1(double, double, double)[pri:16, instance:testTriangleClass.TriangleTest@675d3402]" name="detectTriangleTest1" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderEQUILATERAL" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[равносторонний expected [1] but found [3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: равносторонний expected [1] but found [3]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:652)at testTriangleClass.TriangleTest.detectTriangleTest1(TriangleTest.java:155)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectTriangleTest1 -->
+        <test-method status="PASS" signature="detectTriangleTest2(double, double, double)[pri:17, instance:testTriangleClass.TriangleTest@675d3402]" name="detectTriangleTest2" duration-ms="0" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderORDYNARY" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectTriangleTest2 -->
+        <test-method status="PASS" signature="detectTriangleTest3(double, double, double)[pri:18, instance:testTriangleClass.TriangleTest@675d3402]" name="detectTriangleTest3" duration-ms="0" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderISOSCELES" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectTriangleTest3 -->
+        <test-method status="FAIL" signature="detectTriangleTest4(double, double, double)[pri:19, instance:testTriangleClass.TriangleTest@675d3402]" name="detectTriangleTest4" duration-ms="0" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderISOSCELES" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[прямоугольный expected [8] but found [2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: прямоугольный expected [8] but found [2]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:652)at testTriangleClass.TriangleTest.detectTriangleTest4(TriangleTest.java:175)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectTriangleTest4 -->
+        <test-method status="FAIL" signature="detectTriangleTest5(double, double, double)[pri:20, instance:testTriangleClass.TriangleTest@675d3402]" name="detectTriangleTest5" duration-ms="0" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderdetectTriangleNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [null] but found [10]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [null] but found [10]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:132)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:442)at testTriangleClass.TriangleTest.detectTriangleTest5(TriangleTest.java:185)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectTriangleTest5 -->
+        <test-method status="FAIL" signature="detectTriangleTest5(double, double, double)[pri:20, instance:testTriangleClass.TriangleTest@675d3402]" name="detectTriangleTest5" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderdetectTriangleNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [null] but found [10]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [null] but found [10]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:132)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:442)at testTriangleClass.TriangleTest.detectTriangleTest5(TriangleTest.java:185)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectTriangleTest5 -->
+        <test-method status="FAIL" signature="detectTriangleTest5(double, double, double)[pri:20, instance:testTriangleClass.TriangleTest@675d3402]" name="detectTriangleTest5" duration-ms="1" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderdetectTriangleNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [null] but found [10]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [null] but found [10]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:132)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:442)at testTriangleClass.TriangleTest.detectTriangleTest5(TriangleTest.java:185)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectTriangleTest5 -->
+        <test-method status="FAIL" signature="detectTriangleTest5(double, double, double)[pri:20, instance:testTriangleClass.TriangleTest@675d3402]" name="detectTriangleTest5" duration-ms="0" started-at="2018-03-14T19:01:35Z" data-provider="dataProviderdetectTriangleNegative" finished-at="2018-03-14T19:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [null] but found [2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [null] but found [2]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:132)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:442)at testTriangleClass.TriangleTest.detectTriangleTest5(TriangleTest.java:185)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectTriangleTest5 -->
+      </class> <!-- testTriangleClass.TriangleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,1292 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/15/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 14 19:01:35 MSK 2018</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (116 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.detectTriangleTest1()'><b>detectTriangleTest1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 1.0, 1.0</td>
+<td><div><pre>java.lang.AssertionError: равносторонний expected [1] but found [3]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at testTriangleClass.TriangleTest.detectTriangleTest1(TriangleTest.java:155)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1071097621", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1071097621'><pre>java.lang.AssertionError: равносторонний expected [1] but found [3]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at testTriangleClass.TriangleTest.detectTriangleTest1(TriangleTest.java:155)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.detectTriangleTest4()'><b>detectTriangleTest4</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 4.0, 4.0, 5.0</td>
+<td><div><pre>java.lang.AssertionError: прямоугольный expected [8] but found [2]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at testTriangleClass.TriangleTest.detectTriangleTest4(TriangleTest.java:175)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace85777802", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace85777802'><pre>java.lang.AssertionError: прямоугольный expected [8] but found [2]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at testTriangleClass.TriangleTest.detectTriangleTest4(TriangleTest.java:175)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.detectTriangleTest5()'><b>detectTriangleTest5</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 0.0, 2.0, 2.0</td>
+<td><div><pre>java.lang.AssertionError: expected [null] but found [10]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at testTriangleClass.TriangleTest.detectTriangleTest5(TriangleTest.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace603650290", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace603650290'><pre>java.lang.AssertionError: expected [null] but found [10]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at testTriangleClass.TriangleTest.detectTriangleTest5(TriangleTest.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.detectTriangleTest5()'><b>detectTriangleTest5</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 2.0, 0.0, 2.0</td>
+<td><div><pre>java.lang.AssertionError: expected [null] but found [10]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at testTriangleClass.TriangleTest.detectTriangleTest5(TriangleTest.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1316864772", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1316864772'><pre>java.lang.AssertionError: expected [null] but found [10]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at testTriangleClass.TriangleTest.detectTriangleTest5(TriangleTest.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.detectTriangleTest5()'><b>detectTriangleTest5</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 2.0, 2.0, 0.0</td>
+<td><div><pre>java.lang.AssertionError: expected [null] but found [10]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at testTriangleClass.TriangleTest.detectTriangleTest5(TriangleTest.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace280744458", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace280744458'><pre>java.lang.AssertionError: expected [null] but found [10]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at testTriangleClass.TriangleTest.detectTriangleTest5(TriangleTest.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.detectTriangleTest5()'><b>detectTriangleTest5</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: -1.0, -2.0, -2.0</td>
+<td><div><pre>java.lang.AssertionError: expected [null] but found [2]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at testTriangleClass.TriangleTest.detectTriangleTest5(TriangleTest.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1754638213", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1754638213'><pre>java.lang.AssertionError: expected [null] but found [2]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at testTriangleClass.TriangleTest.detectTriangleTest5(TriangleTest.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestA1()'><b>getMessageTestA1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 0.0, 1.0, 1.0</td>
+<td><div><pre>java.lang.AssertionError: [fail] expected [a&lt;=0] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestA1(TriangleTest.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2083117811", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2083117811'><pre>java.lang.AssertionError: [fail] expected [a&lt;=0] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestA1(TriangleTest.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestA3()'><b>getMessageTestA3</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1, 2, 3</td>
+<td><div><pre>java.lang.AssertionError: [fail] expected [a+b&lt;=c] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestA3(TriangleTest.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2097514481", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2097514481'><pre>java.lang.AssertionError: [fail] expected [a+b&lt;=c] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestA3(TriangleTest.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestA3()'><b>getMessageTestA3</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1, 2, 4</td>
+<td><div><pre>java.lang.AssertionError: [fail] expected [a+b&lt;=c] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestA3(TriangleTest.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace706197430", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace706197430'><pre>java.lang.AssertionError: [fail] expected [a+b&lt;=c] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestA3(TriangleTest.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestB1()'><b>getMessageTestB1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 0.0, 1.0</td>
+<td><div><pre>java.lang.AssertionError: [fail] expected [b&lt;=0] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestB1(TriangleTest.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1518864111", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1518864111'><pre>java.lang.AssertionError: [fail] expected [b&lt;=0] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestB1(TriangleTest.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestB3()'><b>getMessageTestB3</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 3.0, 2.0</td>
+<td><div><pre>java.lang.AssertionError: [fail] expected [a+c&lt;=b] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestB3(TriangleTest.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace510464020", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace510464020'><pre>java.lang.AssertionError: [fail] expected [a+c&lt;=b] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestB3(TriangleTest.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestB3()'><b>getMessageTestB3</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 4.0, 2.0</td>
+<td><div><pre>java.lang.AssertionError: [fail] expected [a+c&lt;=b] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestB3(TriangleTest.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1632492873", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1632492873'><pre>java.lang.AssertionError: [fail] expected [a+c&lt;=b] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestB3(TriangleTest.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestC1()'><b>getMessageTestC1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 1.0, 0.0</td>
+<td><div><pre>java.lang.AssertionError: [fail] expected [c&lt;=0] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestC1(TriangleTest.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1585787493", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1585787493'><pre>java.lang.AssertionError: [fail] expected [c&lt;=0] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestC1(TriangleTest.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestC3()'><b>getMessageTestC3</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 3.0, 1.0, 2.0</td>
+<td><div><pre>java.lang.AssertionError: [fail] expected [b+c&lt;=a] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestC3(TriangleTest.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1766724936", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1766724936'><pre>java.lang.AssertionError: [fail] expected [b+c&lt;=a] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestC3(TriangleTest.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestC3()'><b>getMessageTestC3</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 4.0, 1.0, 2.0</td>
+<td><div><pre>java.lang.AssertionError: [fail] expected [b+c&lt;=a] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestC3(TriangleTest.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace319977154", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace319977154'><pre>java.lang.AssertionError: [fail] expected [b+c&lt;=a] but found [ ]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testTriangleClass.TriangleTest.getMessageTestC3(TriangleTest.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.checkTriangleTest()'><b>checkTriangleTest</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 2.0, 2.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.checkTriangleTest()'><b>checkTriangleTest</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 2.0, 1.0, 2.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.checkTriangleTest()'><b>checkTriangleTest</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 2.0, 2.0, 1.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.checkTriangleTest1()'><b>checkTriangleTest1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 0.0, 2.0, 2.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.checkTriangleTest1()'><b>checkTriangleTest1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 0.0, 2.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.checkTriangleTest1()'><b>checkTriangleTest1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 2.0, 0.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.checkTriangleTest1()'><b>checkTriangleTest1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: -1.0, 1.0, 1.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.checkTriangleTest1()'><b>checkTriangleTest1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, -1.0, 1.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.checkTriangleTest1()'><b>checkTriangleTest1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 1.0, -1.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.detectTriangleTest2()'><b>detectTriangleTest2</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 2.0, 3.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.detectTriangleTest3()'><b>detectTriangleTest3</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 4.0, 4.0, 5.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestA()'><b>getMessageTestA</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 2.0, 2.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestA()'><b>getMessageTestA</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 2.0, 1.0, 1.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestA()'><b>getMessageTestA</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 2.0, 2.0, 0.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestB()'><b>getMessageTestB</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 2.0, 2.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestB()'><b>getMessageTestB</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 2.0, 1.0, 1.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestB()'><b>getMessageTestB</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 2.0, 2.0, 0.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestC()'><b>getMessageTestC</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 2.0, 2.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestC()'><b>getMessageTestC</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 2.0, 1.0, 1.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getMessageTestC()'><b>getMessageTestC</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 2.0, 2.0, 0.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getSquareTest()'><b>getSquareTest</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 2.0, 2.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getSquareTest()'><b>getSquareTest</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 2.0, 1.0, 2.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getSquareTest()'><b>getSquareTest</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 2.0, 2.0, 1.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getSquareTest1()'><b>getSquareTest1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 0.0, 2.0, 2.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getSquareTest1()'><b>getSquareTest1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 0.0, 2.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getSquareTest1()'><b>getSquareTest1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 2.0, 0.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getSquareTest1()'><b>getSquareTest1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: -1.0, 1.0, 1.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getSquareTest1()'><b>getSquareTest1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, -1.0, 1.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.getSquareTest1()'><b>getSquareTest1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 1.0, -1.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.testTriangle()'><b>testTriangle</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: 1.0, 2.0, 2.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+<tr>
+<td title='testTriangleClass.TriangleTest.testTriangle1()'><b>testTriangle1</b><br>Test class: testTriangleClass.TriangleTest<br>Parameters: -1.0, -2.0, -2.0</td>
+<td></td>
+<td>0</td>
+<td>testTriangleClass.TriangleTest@675d3402</td></tr>
+</table><p>
+</body>
+</html>

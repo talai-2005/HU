@@ -1,0 +1,16 @@
+				
+				
+				
+				
+				Triangle Test Check List (highlights)
+				1.	General test – positive
+				2.	General test – negative
+				3.	getSquire method test – positive
+				4.	getSquire method test – negative
+				5.	checkTriangle method test – positive
+				6.	checkTriangle method test – negative
+				7.	getMessage method test (first if)  – positive
+				8.	getMessage method test (first if)  – negative
+				9.	getMessage method test (second if)  – negative
+				10.	 detectTriangle method test – positive
+				11.	 detectTriangle method test – negative
